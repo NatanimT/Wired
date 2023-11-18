@@ -18,7 +18,7 @@ int main(){
 }
 
 
-  //the number mmiles automobil can be driven without refueling
+  //the number miles automobil can be driven without refueling
 #include <iostream>
 using namespace std;
 int main(){
@@ -32,6 +32,23 @@ int main(){
     return 0;
 }
 
+
+//c++ program that calculates the time taken to send a file in bytes
+#include <iostream>
+using namespace std;
+int main()
+{
+const int transmissionRate = 960;
+// declering variable for file size
+   int fs;
+// declering variable for time in seconds
+    int tis;
+  cout << "please enter the file size in bytes " ;
+  cin >> fs;
+tis= fs / transmissionRate;
+cout << "the time needed to send the file " << tis<< "sec" << endl;
+return 0;
+}
 
 
 
